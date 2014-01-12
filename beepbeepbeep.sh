@@ -8,7 +8,7 @@ clear
 echo "Good morning!"
 echo "It is $(date +%R)"
 
-# while [ true ]; do 
+# while [ true ]; do
 # 	aplay -q rooster.wav
 # 	sleep 1
 # done

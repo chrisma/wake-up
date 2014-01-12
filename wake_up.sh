@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ### Auto suspend and wake up script
-# Puts the computer on suspend and automatically wakes it up 
+# Puts the computer on suspend and automatically wakes it up
 # at specified time, running a custom script.
 # Must be run as root (rtcwake requires it).
 
@@ -73,5 +73,3 @@ sudo rtcwake --auto --mode mem --time $DESIRED
 # Any commands you want to launch after wakeup can be placed here
 # Remember: sudo may have expired by now
 source $2
-
-
